@@ -54,6 +54,7 @@ Our primary use case is to put a short answer question into a book activity.
     1. add key to /lang/en/question.php ```$string['submitandfinishmsdlt'] = '<your text here>';```.
        This key is optional. If you don't need it then revert the string in preview_msdlt.php:
        ```get_string('submitandfinishmsdlt', 'question')``` to ```get_string('submitandfinish', 'question')```
+    1. load new key valuess from question.php using _Site administration > Development > Purge all caches_
 1. copy or clone the preview_msdlt.php and previewlib_msdlt.php from this repository into the
    /msdlt_code/ directory (or whichever is your choice). Update paths if required
 
