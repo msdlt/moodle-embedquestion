@@ -43,10 +43,10 @@ Our primary use case is to put a short answer question into a book activity.
        issues when I tried adding it through the Generico plugin.
     1. configure a template for the Generico filter plugin using the following code:
  
-       ```<iframe src="/msdlt/preview_msdlt.php?id=@@questionid@@&correctness=0&marks=0&markdp=0&feedback=1&generalfeedback=1&rightanswer=1&history=0"```
-       ```    width="100%" border="none">Your browser does not support frames.```
-       ```    You will not be able to view the self test questions or additional resources.</iframe>```
-       ```<script>iFrameResize({log:true})</script>```
+       ```<iframe src="/msdlt/preview_msdlt.php?id=@@questionid@@&correctness=0&marks=0&markdp=0&feedback=1&generalfeedback=1&rightanswer=1&history=0"
+           width="100%" border="none">Your browser does not support frames.
+           You will not be able to view the self test questions or additional resources.</iframe>
+           <script>iFrameResize({log:true})</script>```
 
        Please note that you can configure the behaviour of the preview page using the query
        string, and you can pass in variables. The other fields on the Generico template take
