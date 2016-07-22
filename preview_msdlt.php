@@ -233,7 +233,7 @@ echo $OUTPUT->header();
 // hide the info box and re-align question text box.
 echo '<style type="text/css"> .que .info{display:none;} .que .content {margin: 0 0 0 0;} .que.shortanswer .answer input {width: 100%;} </style>';
 // call iframe resizing script which runs from target frame. Assumes script is in a fixed directory.
-echo '<script type="text/javascript" src="/external/iframe-resizer/js/iframeResizer.contentWindow.js"></script>';
+echo '<script type="text/javascript" src="/msdlt_code/iframe-resizer/js/iframeResizer.contentWindow.js"></script>';
 // Start the question form.
 echo html_writer::start_tag('form', array('method' => 'post', 'action' => $actionurl,
         'enctype' => 'multipart/form-data', 'id' => 'responseform'));

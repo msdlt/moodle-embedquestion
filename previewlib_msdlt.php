@@ -283,7 +283,7 @@ function question_preview_action_url($questionid, $qubaid,
         $params['courseid'] = $context->instanceid;
     }
     $params = array_merge($params, $options->get_url_params());
-    return new moodle_url('/question/preview_msdlt.php', $params);
+    return new moodle_url('/msdlt_code/preview_msdlt.php', $params);
 }
 
 /**
@@ -304,7 +304,7 @@ function question_preview_form_url($questionid, $context, $previewid = null) {
     if ($previewid) {
         $params['previewid'] = $previewid;
     }
-    return new moodle_url('/question/preview.php', $params);
+    return new moodle_url('/msdlt_code/preview_msdlt.php', $params);
 }
 
 /**
